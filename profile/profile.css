@@ -1,0 +1,29 @@
+@charset "utf-8";
+.text-blue{
+    color: blue;
+}
+span{
+    color: rgb(137, 11, 11);
+}
+p{
+    font-size: 30px;
+    color: tomato;
+}
+.text-white{
+    color: white;
+}
+.bg-black{
+    background-color: black;
+}
+title{
+    font-size: 40px;
+}
+div{
+    font-size: 30px;
+}
+h1{
+    font-size: 30px;
+}
+ul{
+    font-size: 25px;
+}
