@@ -1,0 +1,13 @@
+@charset "utf-8";
+.aaa{
+    font-size: 0.7rem;
+}
+input[type]{
+    margin-right: 0.5rem;
+}
+input[type]{
+    margin-bottom: 0.5rem;
+}
+fieldset{
+    margin-bottom: 1rem;
+}
