@@ -1,0 +1,95 @@
+.navi{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+.navi ul {
+  width: 100%;
+}
+.button{
+  display: block;
+  padding:10px;
+  background:white;
+  width:20%;
+  float:left;
+  transition:.2s all;
+}
+.button p {
+  height: 10px;
+  font-weight: 300;
+}
+.button a {
+  color:#333333;
+
+  text-decoration:none;
+}
+.navi:hover .button{
+ 
+  opacity: .5;
+
+  transform: scale(.98);
+}
+.navi:hover .button:hover{
+  transition: .5s;
+
+  transform:scale(1.2);
+
+  opacity:1;
+}
+.navi:hover .button:hover > p {
+  font-weight: bold;
+}
+
+
+
+h1 {
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 1px blue;
+  padding: 0.2em 0.5em;
+  color: black;
+}
+
+  body {
+    padding:1rem;
+  }
+  
+.title2 {
+  text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+  -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+  0px 1px 0 #FFF,  0-1px 0 #FFF,
+  -1px 0 0 #FFF, 1px 0 0 #FFF;
+
+  font-size: 100px;
+  color: blue;
+  text-align: center;
+  margin-top: 30px;
+}
+.info {
+  text-align: center;
+}
+
+
+.container {
+  margin-top: 10px;
+}
+.card img {
+  width: 100;
+  height: 100%;
+  object-fit: contain;
+}
+
+#home {
+  background-image: url(/img/sky_00001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
