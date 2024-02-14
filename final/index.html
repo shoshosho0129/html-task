@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon (2).ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+    <title>Steins;Gate Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+            var offset = 100;
+            var duration = 500;
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > offset) {
+                    jQuery('.pagetop').fadeIn(duration);
+                } else {
+                    jQuery('.pagetop').fadeOut(duration);
+                }
+            });
+
+            jQuery('.pagetop').click(function (event) {
+                event.preventDefault();
+                jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                return false;
+            })
+        });
+    </script>
+</head>
+
+<body id="index">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="/img/wiGjOKQtswRGKG01706754429_1706754475.png" alt="Steins;Gate"></a>
+        </div>
+        <nav>
+            <ul class="global-nav">
+                <li><a href="#">TOP</a></li>
+                <li><a href="/story/story.html">STORY</a></li>
+                <li><a href="/character/character.html">CHARACTER</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background-image">
+        <div>
+            <div class="hito">
+                <li>原作</li>
+                <p>志倉千代丸/MAGES.</p>
+            </div>
+            <div class="hito">
+                <li>監督</li>
+                <p>川村賢一</p>
+            </div>
+            <div class="hito">
+                <li>シリーズ構成</li>
+                <p>花田十輝</p>
+            </div>
+            <div class="hito">
+                <li>キャラクター原案</li>
+                <p>huke</p>
+            </div>
+            <div class="hito">
+                <li>キャラクターデザイン</li>
+                <p>稲吉智重</p>
+            </div>
+            <div class="hito">
+                <li>アニメーション制作</li>
+                <p>WHITE FOX</p>
+            </div>
+        </div>
+        <div class="cast">
+            <h2>CAST</h2>
+            <div class="koe">
+                <li>岡部倫太郎</li>
+                <p>宮野真守</p>
+            </div>
+            <div class="koe">
+                <li>椎名まゆり</li>
+                <p>花澤香菜</p>
+            </div>
+            <div class="koe">
+                <li>橋田至</li>
+                <p>関智一</p>
+            </div>
+            <div class="koe">
+                <li>牧瀬紅莉栖</li>
+                <p>今井麻美</p>
+            </div>
+            <div class="koe">
+                <li>桐生萌郁</li>
+                <p>後藤沙緒里</p>
+            </div>
+            <div class="koe">
+                <li>漆原るか</li>
+                <p>小林ゆう</p>
+            </div>
+            <div class="koe">
+                <li>フェイリス</li>
+                <p>桃井はるこ</p>
+            </div>
+            <div class="koe">
+                <li>阿万音鈴羽</li>
+                <p>田村ゆかり</p>
+            </div>
+
+        
+
+        </div>
+    </div>
+
+
+    
+    <div class="pagetop">↑</div>
+</body>
+
+</html>

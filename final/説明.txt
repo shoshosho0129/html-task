@@ -1,0 +1,2 @@
+　ページ内遷移はcharacterページのsection id="CHARACTER"のところで、キャラクターのボタンを押したら、そのキャラクターの説明の場所に飛びます。
+　擬似クラスは、同じくcharacterページのsection id="CHARACTER"のところで、ボタンをホバーすると、飛び出るようにしました。

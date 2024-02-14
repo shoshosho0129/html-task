@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+    background-image: url(/img/black_00082\ \(1\).jpg);
+    color: #fff;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.global-nav{
+    display: flex;
+}
+.global-nav li{
+    margin:0 25px;
+    list-style: none;
+    font-size: 40px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+.content{
+    display: flex;
+}
+#ex{
+    margin: 0 40px;
+    font-size:30px
+}
+#movie{
+    margin-top: 35px;
+}

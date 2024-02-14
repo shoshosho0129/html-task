@@ -1,0 +1,122 @@
+@charset "utf-8";
+body{
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+}
+
+
+
+.global-nav{
+    display: flex;
+}
+.global-nav li{
+    margin:0 25px;
+    list-style: none;
+    font-size: 40px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.background-image {
+    background-image: url(/img/シュタゲ.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    height: 1200px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.hito li{
+    font-size: 20px;
+}
+.hito p{
+    font-size: 30px;
+}
+
+.hito::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 2px; 
+    background-color: #000; 
+}
+
+
+.hito {
+    position: relative; 
+    text-align: left;
+    list-style: none;
+    margin-top: 20px; 
+    padding-left: 20px; 
+    margin-left: 10px;
+}
+.cast{
+    margin-left: auto;
+    list-style: none;
+}
+.koe{
+    text-align: right;
+    position: relative;
+    margin-top: 20px; 
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.koe::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #000;
+}
+.cast li{
+    font-size: 20px;
+}
+.cast p{
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+}
+.pagetop {
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 1.5rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	border-radius: 3.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pagetop:hover {
+	color: #fff !important;
+	background-color: #ed702b;
+	text-decoration: none;
+}
+
+
