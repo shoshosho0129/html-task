@@ -30,7 +30,7 @@ a {
     color: white;
 }
 .background-image {
-    background-image: url(/img/シュタゲ.jpg);
+    background-image: url(img/シュタゲ.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;

@@ -3,7 +3,7 @@
 body {
     font-size: 15px;
     margin: 0;
-    background-image: url(/img/black_00082\ \(1\).jpg);
+    background-image: url(../img/black_00082\ \(1\).jpg);
     font-family: 'Noto Serif JP', serif;
     overflow-x: hidden;
 }
@@ -60,7 +60,7 @@ a.character {
     display: flex;
     align-items: center;
     text-align: center;
-    background-image: url(/img/white_00041\ \(1\).jpg);
+    background-image: url(../img/white_00041\ \(1\).jpg);
     border-radius: 100vh;
     border-bottom: 2px solid #000;
 }
